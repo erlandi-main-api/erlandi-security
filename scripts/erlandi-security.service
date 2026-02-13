@@ -1,0 +1,17 @@
+[Unit]
+Description=Erlandi Security Telegram Bot
+After=network.target
+
+[Service]
+Type=simple
+User=__USER__
+WorkingDirectory=__APP_DIR__
+EnvironmentFile=/etc/erlandi-security.env
+ExecStart=__APP_DIR__/venv/bin/python __APP_DIR__/bot.py
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

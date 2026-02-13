@@ -1,5 +1,5 @@
 # erlandi-security 
-bot ini sedangan dalam pengembangan masih tahan beta salam hangat erlandi.eu org
+bot ini sedangan dalam pengembangan masih tahan beta salam hangat buat yg mencoba
 # linux install
 mkdir -p erlandi-security/data
 cd erlandi-security
